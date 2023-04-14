@@ -18,6 +18,50 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 
 ## Desain Program
 
-## Alur Program
+![tp2 drawio](https://user-images.githubusercontent.com/96176429/231957625-fa7c0fda-acae-4049-897a-c89c015a3687.png)
 
+## Alur Program
+- Login
+  - Memasukkan data username dan password (jika sudah memiliki akun)
+  - Menekan tombol Login
+  - Masuk ke dalam page List Character
+  - Jika tidak memiliki akun menekan tombol register
+- Register
+  - Menekan tombol Register di page Login
+  - Masuk ke page Register
+  - Jika menekan tombol batal maka akan kembali ke Page Login
+  - Memasukkan data username dan password lalu konfirmasi password
+  - Menekan tombol register
+  - Jika data yang dimasukkan benar maka akan ter-registrasi, jika salah akan diminta untuk memasukkan ulang data
+  - Masuk lagi ke dalam page Login
+- Page List Character, user dapat melihat list karakter dan ada 5 tombol Weapon List, Add Item, Update, Delete, Logout
+  - Add Item
+    - Sebuah form berbentuk dialog muncul
+    - Memasukkan data yang diminta beserta gambarnya
+    - Menekan tombol done untuk menambahkan item baru tersebut
+    - Menjalankan query insert
+    - Item berhasil ditambahkan
+    - Dialog ditutup
+  - Update Item
+    - Memilih item yang ingin di-update
+    - Query untuk mendapatkan data berdasarkan id item yang dipilih
+    - Sebuah form berbentuk dialog muncul
+    - Menampilkan datanya
+    - Mengubah data item
+    - Memasukkan ulang gambar
+    - Menekan tombol update
+    - Menjalankan query update
+    - Dialog ditutup
+  - Delete Item
+    - Memilih item yang akan dihapus
+    - Menekan tombol delete
+    - Sebuah dialog muncul untuk memastikan apakah ingin menghapus item tersebut atau tidak
+    - Jika ya maka akan menjalankan query delete
+    - Data berhasil dihapus
+  - Logout
+    - Menekan tombol logout
+    - Kembali ke page Login
+  - Weapon List
+    - Menampilkan isi list Weapon
+    - Fitur yang ada di page ini sama seperti yang ada di page list Character
 ## Dokumentasi
