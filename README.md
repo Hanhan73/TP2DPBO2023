@@ -65,3 +65,43 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
     - Menampilkan isi list Weapon
     - Fitur yang ada di page ini sama seperti yang ada di page list Character
 ## Dokumentasi
+- Login
+
+![login](https://user-images.githubusercontent.com/96176429/231962596-24269d4e-b122-4e31-90e1-072e673e3672.png)
+
+- Registrasi
+
+![register](https://user-images.githubusercontent.com/96176429/231962644-78357c4d-f40c-435b-9904-e3d8e52e8b99.png)
+
+
+- List Character
+
+![List Character](https://user-images.githubusercontent.com/96176429/231962667-4bfcc501-c486-4cd1-b5dd-763b2bb4db61.png)
+
+
+- Add Character
+
+![add_char](https://user-images.githubusercontent.com/96176429/231962675-8b5f6fc3-33e6-4002-80cf-c2aec02b8a40.png)
+
+
+- Update Character
+
+![update_char](https://user-images.githubusercontent.com/96176429/231962685-474a51af-0828-46ed-83ba-eb21271debce.png)
+
+
+- List Weapon
+
+![List Weapon](https://user-images.githubusercontent.com/96176429/231962714-8db87aba-8314-4f63-866e-d9751a1990a6.png)
+
+- Add Weapon
+
+![add_weap](https://user-images.githubusercontent.com/96176429/231962735-ab65cd77-2b47-4337-a3d7-3c23ff82d176.png)
+
+- Update Weapon
+
+![update_weap](https://user-images.githubusercontent.com/96176429/231962746-f949b89a-fa4a-4b40-b31c-e1b935f27137.png)
+
+- Delete
+
+![del_char](https://user-images.githubusercontent.com/96176429/231962772-a2d1805b-7005-4da8-b80f-acaa7eee55de.png)
+
