@@ -18,6 +18,8 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 
 ## Desain Program
 
+![tp2 drawio](https://user-images.githubusercontent.com/96176429/231957625-fa7c0fda-acae-4049-897a-c89c015a3687.png)
+
 ## Alur Program
 - Login
   - Memasukkan data username dan password (jika sudah memiliki akun)
